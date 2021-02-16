@@ -21,7 +21,7 @@ public class Triangle extends Shape2D{
         setBase(newBase);
         setHeight(newHeight);
     }
-    public String toString(){
-        return "This is a Triangle object, is located at (" + getX()+getY()+ ") with base" +base + "and height"+height;
-    }
+   /* public String toString(){
+        return "This is a Triangle object, is located at (" + getX()+","+getY()+ ") with base" +base + "and height"+height;
+    }*/
 }

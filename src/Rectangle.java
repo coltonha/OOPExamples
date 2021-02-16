@@ -21,4 +21,7 @@ public class Rectangle extends Shape2D{
         setLength(newLength);
         setHeight(newHeight);
     }
+    public String toString(){
+        return "This is a Rectangle object, is located at (" + getX()+","+getY()+ ") with length " +length+ " and height "+height;
+    }
 }

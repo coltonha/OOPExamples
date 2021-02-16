@@ -24,4 +24,7 @@ public class Shape2D {
     public int getY(){
         return y;
     }
+    public String toString(){
+        return "located at (" +x+","+y+")";
+    }
 }
